@@ -1,0 +1,38 @@
+$text-aling-primario: center;
+
+$font-family-primario: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+$color-primario: #880a0a;
+
+$color-secundario: #e7af16;
+
+$color-tercero: aliceblue;
+
+$border-radius-primario: 20px;
+
+$margin-right-primario: auto;
+
+
+.body {
+    background-image: url(../img/fondo-body.png);
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+h1 {
+    text-align: $text-aling-primario;
+}
+
+h2 {
+    text-align: $text-aling-primario;
+}
+
+.hr {
+    color: #f8f8f8d8;
+}

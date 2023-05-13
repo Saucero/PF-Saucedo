@@ -1,0 +1,31 @@
+.h2-vende {
+    text-align: $text-aling-primario;
+    color:$color-primario;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+.h3-vende {
+    text-align: $text-aling-primario;
+    color: $color-primario;
+    font-size: 35px;
+}
+
+.h4-vende {
+    text-align: center;
+    color:$color-secundario;
+    font-size: 25px;
+}
+
+.parrafo-vende {
+    text-align: $text-aling-primario;
+    color: $color-tercero;
+    font-size: 19px;
+}
+
+.parrafo-vende-titulo {
+    font-family:$font-family-primario;
+    font-size: 18px;
+    text-align: $text-aling-primario;
+    color:$color-secundario;
+}

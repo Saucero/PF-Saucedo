@@ -1,0 +1,99 @@
+.card {
+    background-image: url(../img/dark_wall.png);
+
+    &-modelos {
+        width: 350px;
+        height: 430px;
+        border-style: solid;
+        border-color: #f8f8f8d8;
+        border-radius: $border-radius-primario;
+        text-align: $text-aling-primario;
+        background-color: rgba(255, 0, 0, 0.027);
+        color: $color-tercero;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 16px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &-vende {
+        width: 400px;
+        height: 350px;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: $border-radius-primario;
+        padding: 15px;
+        border: solid #f8f8f8d8;
+        background-color: rgba(255, 0, 0, 0.027);
+    }
+
+    &-contacto {
+        width: 350px;
+        height: 360px;
+        justify-content: center;
+        border: solid 2.5px #f8f8f8d8;
+        border-radius: $border-radius-primario;
+        text-align: $text-aling-primario;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: $color-tercero;
+        padding: 20px;
+        background-color: rgba(255, 0, 0, 0.027);
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: $margin-right-primario;
+    }
+
+    &-contacto-form {
+        width: 350px;
+        height: 420px;
+        border: solid 1px $color-primario;
+        border-radius: 30px;
+        margin-left: auto;
+        margin-right: $margin-right-primario;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        text-align: $text-aling-primario;
+        color: $color-tercero;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        overflow: hidden;
+    }
+
+    &-sucursales {
+        height: 552px;
+        width: 360px;
+        background-color: rgba(255, 0, 0, 0.027);
+        text-align: $text-aling-primario;
+        margin-right: $margin-right-primario;
+        margin-bottom: 60px;
+        margin-top: 10px;
+        margin-left: auto;
+        border: solid 1px rgba(255, 0, 0, 0.158);
+        border-radius: 15px;
+        padding-top: 10px;
+        overflow: hidden;
+
+        .parrafo-Card-sucursales {
+            text-align: $text-aling-primario;
+            color: $color-tercero;
+        }
+
+        .ol-sucursales {
+            text-align: $text-aling-primario;
+            padding-left: 0%;
+            color: $color-tercero;
+        }
+
+
+
+
+    }
+
+
+
+
+
+}

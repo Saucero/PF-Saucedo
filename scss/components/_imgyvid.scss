@@ -1,0 +1,22 @@
+.inframe {
+    border-radius: 10px;
+    justify-content: center;
+
+    &-sucursales {
+        height: 250px;
+        width: 340px;
+        text-align: $text-aling-primario;
+        border-radius: 15px;
+        border: solid 2px $color-secundario;
+        margin-bottom: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.img-contacto {
+    border-radius: $border-radius-primario;
+    width: 306px;
+    height: 200px;
+    padding-bottom: 10px;
+}
