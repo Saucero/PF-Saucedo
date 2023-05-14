@@ -1,6 +1,7 @@
 .card {
     background-image: url(../img/dark_wall.png);
 
+
     &-modelos {
         width: 350px;
         height: 430px;
@@ -12,10 +13,11 @@
         color: $color-tercero;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         padding: 16px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
+        box-shadow: 30px 30px 12px black;
     }
 
     &-vende {
@@ -44,6 +46,7 @@
         margin-bottom: 20px;
         margin-left: auto;
         margin-right: $margin-right-primario;
+        box-shadow: 20px 20px 10px black;
     }
 
     &-contacto-form {
@@ -75,6 +78,7 @@
         border-radius: 15px;
         padding-top: 10px;
         overflow: hidden;
+        box-shadow: 20px 20px 10px black;
 
         .parrafo-Card-sucursales {
             text-align: $text-aling-primario;
@@ -91,7 +95,6 @@
 
 
     }
-
 
 
 

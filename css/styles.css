@@ -51,10 +51,11 @@ h2 {
   color: aliceblue;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 30px 30px 12px black;
 }
 .card-vende {
   width: 400px;
@@ -81,6 +82,7 @@ h2 {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 20px 20px 10px black;
 }
 .card-contacto-form {
   width: 350px;
@@ -110,6 +112,7 @@ h2 {
   border-radius: 15px;
   padding-top: 10px;
   overflow: hidden;
+  box-shadow: 20px 20px 10px black;
 }
 .card-sucursales .parrafo-Card-sucursales {
   text-align: center;
@@ -168,6 +171,7 @@ h2 {
 
 .navbar {
   background-image: url(../img/dark_wall.png);
+  box-shadow: 20px 20px 8px black;
 }
 
 .barra-nav {
@@ -187,6 +191,7 @@ h2 {
   text-align: center;
   font-size: 45px;
   color: #880a0a;
+  padding-top: 20px;
 }
 
 .h2-contacto {
@@ -203,6 +208,7 @@ h2 {
 .h1-index {
   font-size: 55px;
   color: #880a0a;
+  padding-top: 20px;
 }
 
 .h2-index {
@@ -227,6 +233,7 @@ h2 {
 .h1-modeos {
   font-size: 55px;
   color: #880a0a;
+  padding-top: 20px;
 }
 
 .parrafo-modelos {
@@ -278,6 +285,7 @@ h2 {
   text-align: center;
   font-size: 40px;
   color: #880a0a;
+  padding-top: 20px;
 }
 
 .parrafo-sucursales {
